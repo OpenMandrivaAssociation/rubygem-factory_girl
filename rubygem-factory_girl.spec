@@ -55,3 +55,13 @@ rm -rf %{buildroot}
 %doc %{ruby_gemdir}/gems/%{rbname}-%{version}/*.rdoc
 %doc %{ruby_gemdir}/doc/%{rbname}-%{version}
 
+
+
+%changelog
+* Sun Mar 13 2011 Per Øyvind Karlsen <peroyvind@mandriva.org> 1.3.3-1
++ Revision: 644327
+- imported package rubygem-factory_girl
+
+
+* Thu Mar 10 2011 Per Øyvind Karlsen <peroyvind@mandriva.org> 1.3.3-1
+- Initial package
