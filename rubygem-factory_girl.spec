@@ -1,11 +1,11 @@
 # Generated from factory_girl-1.3.3.gem by gem2rpm5 -*- rpm-spec -*-          
 %define	rbname	factory_girl
 
-Summary:	factory_girl provides a framework and DSL for defining and using model instance factories
+Summary:	Framework and DSL for defining and using model instance factories
 Name:		rubygem-%{rbname}
 
 Version:	1.3.3
-Release:	1
+Release:	2
 Group:		Development/Ruby
 License:	GPLv2+ or Ruby
 URL:		http://thoughtbot.com/projects/factory_girl
