@@ -4,12 +4,12 @@
 Summary:	Framework and DSL for defining and using model instance factories
 Name:		rubygem-%{rbname}
 
-Version:	1.3.3
-Release:	2
+Version:	4.4.0
+Release:	1
 Group:		Development/Ruby
 License:	GPLv2+ or Ruby
 URL:		http://thoughtbot.com/projects/factory_girl
-Source0:	http://rubygems.org/gems/%{rbname}-%{version}.gem
+Source0:	http://rubygems.org/gems/factory_girl-4.4.0.gem
 BuildRequires:	rubygems 
 BuildArch:	noarch
 
@@ -33,11 +33,9 @@ Documents, RDoc & RI documentation for %{name}.
 %gem_build -f '(features|spec)/'
 
 %install
-rm -rf %{buildroot}
 %gem_install
 
 %clean
-rm -rf %{buildroot}
 
 %files
 %dir %{ruby_gemdir}/gems/%{rbname}-%{version}
@@ -54,14 +52,3 @@ rm -rf %{buildroot}
 %files doc
 %doc %{ruby_gemdir}/gems/%{rbname}-%{version}/*.rdoc
 %doc %{ruby_gemdir}/doc/%{rbname}-%{version}
-
-
-
-%changelog
-* Sun Mar 13 2011 Per Øyvind Karlsen <peroyvind@mandriva.org> 1.3.3-1
-+ Revision: 644327
-- imported package rubygem-factory_girl
-
-
-* Thu Mar 10 2011 Per Øyvind Karlsen <peroyvind@mandriva.org> 1.3.3-1
-- Initial package
