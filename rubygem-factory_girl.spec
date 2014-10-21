@@ -39,14 +39,14 @@ Documents, RDoc & RI documentation for %{name}.
 
 %files
 %dir %{ruby_gemdir}/gems/%{rbname}-%{version}
-%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/features
-%{ruby_gemdir}/gems/%{rbname}-%{version}/features/*
-%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib
-%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/*.rb
-%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/factory_girl
-%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/factory_girl/*
-%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/spec
-%{ruby_gemdir}/gems/%{rbname}-%{version}/spec/*
+# %dir %{ruby_gemdir}/gems/%{rbname}-%{version}/features
+# %{ruby_gemdir}/gems/%{rbname}-%{version}/features/*
+# %dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib
+# %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/*.rb
+# %dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/factory_girl
+# %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/factory_girl/*
+# %dir %{ruby_gemdir}/gems/%{rbname}-%{version}/spec
+# %{ruby_gemdir}/gems/%{rbname}-%{version}/spec/*
 %{ruby_gemdir}/specifications/%{rbname}-%{version}.gemspec
 
 %files doc
