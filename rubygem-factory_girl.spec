@@ -19,11 +19,11 @@ using factories - less error-prone, more explicit, and
 all-around easier to work with than fixtures.
 
 %files
-%{ruby_gemdir}/gems/%{rbname}-%{version}/features/*
-%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/*.rb
-%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/factory_girl/*
-%{ruby_gemdir}/gems/%{rbname}-%{version}/spec/*
-%{ruby_gemdir}/specifications/%{rbname}-%{version}.gemspec
+%{gem_dir}/gems/%{rbname}-%{version}/features/*
+%{gem_dir}/gems/%{rbname}-%{version}/lib/*.rb
+%{gem_dir}/gems/%{rbname}-%{version}/lib/factory_girl/*
+%{gem_dir}/gems/%{rbname}-%{version}/spec/*
+%{gem_dir}/specifications/%{rbname}-%{version}.gemspec
 #-----------------------------------------------------
 
 %package	doc
@@ -35,7 +35,7 @@ Requires:	%{name} = %{EVRD}
 Documents, RDoc & RI documentation for %{name}.
 
 %files doc
-%doc %{ruby_gemdir}/doc/%{rbname}-%{version}
+%doc %{gem_dir}/doc/%{rbname}-%{version}
 #-----------------------------------------------------
 
 %prep
