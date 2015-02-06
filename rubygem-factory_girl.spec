@@ -5,7 +5,7 @@ Summary:	Framework and DSL for defining and using model instance factories
 Name:		rubygem-%{rbname}
 
 Version:	4.4.0
-Release:	1
+Release:	2
 Group:		Development/Ruby
 License:	GPLv2+ or Ruby
 URL:		http://thoughtbot.com/projects/factory_girl
